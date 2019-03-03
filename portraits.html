@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Portraits</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body class = "portraits2">
+      <div class="wrapper">
+            <header class = portraits>
+
+                  <nav class = navPortraits>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              VASCELONE
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="portraits.html">Portraits</a></li>
+                                    <li><a href="cityscape.html">Cityscape</a></li>
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="other.html">Other</a></li>
+
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+
+            <div class="content">
+
+            	<img class = "images" src = "Terrence.jpg" hspace="5" />
+            	
+
+
+
+                  
+                  
+            </div>
+
+            
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
