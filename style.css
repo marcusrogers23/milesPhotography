@@ -107,6 +107,8 @@ nav ul {
       margin: 0;
       padding-right: 40px;
       transition: 1s;
+      border-bottom: 1px solid;
+
 }
 
 .navcityscape{
@@ -120,6 +122,8 @@ nav ul {
       margin: 0;
       padding-right: 40px;
       transition: 1s;
+      border-bottom: 1px solid;
+
 }
 
 nav.black ul {
